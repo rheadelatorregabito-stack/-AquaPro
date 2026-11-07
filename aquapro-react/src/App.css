@@ -1,0 +1,76 @@
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: left;
+}
+
+.wrap h1 {
+  color: #0a6ebd;
+}
+
+.filters {
+  margin-bottom: 12px;
+}
+
+.filters button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 14px;
+  border: 1px solid #0a6ebd;
+  background: #ffffff;
+  color: #0a6ebd;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filters button.active {
+  background: #0a6ebd;
+  color: #ffffff;
+}
+
+.card {
+  background: #ffffff;
+  color: #222222;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.card p {
+  margin: 6px 0;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status {
+  padding: 2px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  background: #e3f2fd;
+  color: #0a6ebd;
+}
+
+.status.pending {
+  background: #fff3cd;
+  color: #8a6d00;
+}
+
+.status.delivering {
+  background: #d6f0ff;
+  color: #0a6ebd;
+}
+
+.status.delivered {
+  background: #d8f5e0;
+  color: #1b7a3a;
+}
+
+.total {
+  font-weight: bold;
+}
